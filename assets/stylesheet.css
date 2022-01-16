@@ -21,7 +21,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 100%;
-    margin: 0px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
     
 }
@@ -42,28 +42,54 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 0 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
 }
 
 #menu a {
     color: inherite;
-    border: 1px solid
+    border: #000000 solid 1px;
 }
 
 /* Cover image*/
 
 #cover {
+    height: 600px;
+    width:  100%;
+    overflow: hidden;
+    
+    position: relative;
 
 }
 
-#cover-text #cover-text h2 {
+#image-text, #image-text h2 {
+    color: #fff;
 
 }
 
 #cover-image {
     height: 600px;
     width: 100%;
-    background: url('../assets/images/cover\ image\ option1\ .jpg')
+    position: relative;
+    background: url('../assets/images/cover\ image\ option\ 1\ .jpg') center center;
+}
+
+#image-text {
+    font-family: karla, sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+   
+    top: 3px;
+
+    
+    
+
+    padding: 10px 10px 10px 10px;
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
 }
 
