@@ -80,14 +80,14 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     
-   
-    top: 3px;
+    top: 50px;
+    right: 0px;
+    left: 600px;
+    bottom: 0px;
+
+    text-align: center;
 
     
-    
-
-    padding: 10px 10px 10px 10px;
-
     width: 200px;
     height: 200px;
     position: absolute;
