@@ -1,1 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Rubik:wght@300&display=swap');
+
+
+body {
+    font-family: Karla, sans-serif
+    
+    
+ }
+
+ /* Headings and logo*/
+
+h1, h2 {
+    font-family: Rubik, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #000000
+}
