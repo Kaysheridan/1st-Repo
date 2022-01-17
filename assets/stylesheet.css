@@ -28,7 +28,13 @@ h1, h2 {
 
 /* Navigation links */
 
+
 #menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     font-size: 100%;
     letter-spacing: 3px;
 
@@ -41,14 +47,17 @@ h1, h2 {
 
 #menu li {
     float: right;
+    display: block;
+    background-color: seagreen;
     list-style-type: none;
-    margin: 5px 5px 5px 5px;
-    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    padding: 10px;
 }
 
-#menu a {
-    color: inherite;
-    border: #000000 solid 1px;
+
+li a:hover {
+    background-color: royalblue;
+    color: salmon;
 }
 
 /* Cover image*/
@@ -73,8 +82,10 @@ h1, h2 {
     height: 600px;
     width: 100%;
     position: relative;
-    background: url('../assets/images/cover\ image\ option\ 1\ .jpg') center center;
+    background: url('../assets/images/cover\ image\ option\ 1\ .jpg') center;
 }
+
+/* cover image text */
 
 #image-text {
     font-family: karla, sans-serif;
