@@ -43,6 +43,8 @@ h1, h2 {
 /* Navigation links */
 
 nav {
+    font-family: rubik, sans-serif;
+    color: #fff;
     background-color: #000000;
 }
 
@@ -62,7 +64,6 @@ nav {
 li {
     float: right;
     display: block;
-    background-color: seagreen;
     list-style-type: none;
     margin: 5px;
     padding: 10px;
@@ -70,8 +71,7 @@ li {
 
 
 li a:hover {
-    background-color: royalblue;
-    color: salmon;
+    color: #95B46A;
 }
 
 /* Cover image*/
