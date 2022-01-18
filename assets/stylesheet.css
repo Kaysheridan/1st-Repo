@@ -123,4 +123,10 @@ li a:hover {
 
 }
 
+/* footer */
+ 
+footer ul {
+    display: inline-block;
+}
+
 
