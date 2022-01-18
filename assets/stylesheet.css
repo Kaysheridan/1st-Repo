@@ -5,7 +5,13 @@
    padding: 0;
    border: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body {
+    background-color: tomato;
     font-family: Karla, sans-serif
     }
 
@@ -26,6 +32,14 @@ h1, h2 {
     
 }
 
+.page-padding {
+    padding: 200px 0 200px 0;
+}
+
+.text-padding {
+    padding: 0 200px 0 200px;
+}
+
 /* Navigation links */
 
 
@@ -35,9 +49,6 @@ h1, h2 {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    font-size: 100%;
-    letter-spacing: 3px;
-
 }
 
 #menu #logo {
@@ -63,24 +74,22 @@ li a:hover {
 /* Cover image*/
 
 #cover {
-    height: 600px;
     width:  100%;
-    overflow: hidden;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 #image-text, #image-text h2 {
     color: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
 
 }
-
-#cover-image {
-    height: 600px;
-    width: 100%;
+.cover-image {
+    height: 100vh;
     position: relative;
     background: url('../assets/images/cover\ image\ option\ 1\ .jpg') center;
 }
@@ -91,9 +100,24 @@ li a:hover {
     font-family: karla, sans-serif;
     font-size: 2rem;
     letter-spacing: 3px;
-    position: absolute;
-    left: 16rem;
-    top: 20.5rem;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+/* did you know and about sections */
+
+#did-you-know {
+    margin: 6rem 0 6rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-section {
+    background-color: turquoise;
+    text-align: center;
+    font-size: 1.5rem;
+
 }
 
 
