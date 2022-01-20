@@ -1,7 +1,34 @@
-Project 1- Static Front-end website.
+# Become Part Of The 1% #
 
-This project is going to cover beginning to prepare to run your first marathon, it will provide week 1 of a 12 week training plan a sign up page for people interested in how to go about running your first marathon and useful tips from my own personal experience of running my first marathon in 2020.
+### User Experience ###
+- I want visitors to the site to be able to nvaigate the site with ease.
+- I want visitors to the site to understand the purpose of the site.
 
-https://www.w3schools.com/css/css_navbar_horizontal.asp (used to help me style nav bar)
+### Design ###
+#### Colour scheme ####
+- The main colours of the site are going to be black, white and green.
 
-Had issues setting up the cover image and the text to sit ontop of the cover image 
+#### Typeography ####
+- The Font used in the headings on the page is going to be Rubik and Karla for the body of the site. They 
+work well together as a pair and have a sleek and modren look. I will used Sans-serif as a fall back font. 
+
+#### Imagery ####
+ - The large background hero image I have chosen is:
+![Dark image of a man running]()
+ - I still have no chosen an image for the background of the training table, I will update this accordingly 
+
+### WireFrame ###
+https://balsamiq.cloud/sqb14tm/p9u4f2p
+
+
+### Features ####
+- I am hoping for it to be responsive on all devices. 
+
+### Technologies Used ###
+- HTML5
+- CSS3
+
+
+
+
+
