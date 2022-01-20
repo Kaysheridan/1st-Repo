@@ -15,7 +15,7 @@ work well together as a pair and have a sleek and modren look. I will used Sans-
 #### Imagery ####
  - The large background hero image I have chosen is:
 ![Dark image of a man running]()
- - I still have no chosen an image for the background of the training table, I will update this accordingly 
+ - I still have not chosen an image for the background of the training table, I will update this accordingly 
 
 ### WireFrame ###
 https://balsamiq.cloud/sqb14tm/p9u4f2p
@@ -27,6 +27,25 @@ https://balsamiq.cloud/sqb14tm/p9u4f2p
 ### Technologies Used ###
 - HTML5
 - CSS3
+
+### Frameworks, libraries and programs used ###
+
+- [Google Fonts](https://fonts.google.com/) : Used to import the 'Rubik and Karla' fonts which are used throughout the project.
+- [Balsamiq](https://balsamiq.com/) : used to create the wireframes during the design process 
+- [Git](https://git-scm.com/) : Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Github](https://github.com/) : GitHub is used to store the projects code after being pushed from Git.
+
+### Testing ###
+
+### Further Testing ###
+
+### Known bugs ###
+
+### Deployment ###
+
+### Credits ###
+
+
 
 
 
