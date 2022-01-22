@@ -124,7 +124,7 @@ li a:hover {
 
 #about {
     background-color: #297373;
-    color: #fff;
+    color: #121113
     
 }
 
@@ -136,7 +136,7 @@ li a:hover {
 
 
 table, th, td {
-    color: #FFC857;
+    color: #DC851F;
     border: 3px solid;
     padding: 5px;
 }
@@ -159,8 +159,13 @@ tr:nth-child(even) {
 
 #sign-up {
     background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center center;
-    color: #fff;
+    color: #DC851F
 
+}
+
+input {
+    padding: 5px 10px;
+    margin: 8px;
 }
 
 /* footer */
