@@ -91,7 +91,7 @@ li a:hover {
 
 }
 .cover-image {
-    height: 115vh;
+    height: 100vh;
     position: relative;
     background: url('../assets/images/Cover\ image\ 1.jpg') center;
 }
@@ -111,7 +111,7 @@ li a:hover {
 
 #did-you-know {
     background-color: #121113;
-    color: #fff;
+    color: #DC851F;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -129,14 +129,15 @@ li a:hover {
 }
 
 #training {
-    background-color: #121113;
-    color: #fff;
+    background-color: #CFDBD5;
+    color: #121113;
+
     
 }
 
 
 table, th, td {
-    color: #DC851F;
+    color: #121113;
     border: 3px solid;
     padding: 5px;
 }
@@ -159,14 +160,30 @@ tr:nth-child(even) {
 
 #sign-up {
     background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center center;
-    color: #DC851F
+    color: #DC851F;
+
 
 }
 
 input {
     padding: 5px 10px;
     margin: 8px;
+    box-sizing: border-box;
+    border: 3px solid #DC851F;
+    font-size: 20px;
+    background: transparent;
+    font-weight: bold;
+    
 }
+
+.submit {
+    border: 3px solid #DC851F;
+    color: #DC851F;
+    padding: 10px 15px;
+    font-size: 30px;
+    background: transparent;
+}
+
 
 /* footer */
 
