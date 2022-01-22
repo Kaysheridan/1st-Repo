@@ -11,7 +11,6 @@ html{
 }
 
 body {
-    background-color: tomato;
     font-family: Karla, sans-serif
     }
 
@@ -21,19 +20,19 @@ h1, h2 {
     font-family: Rubik, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #fff
+
 }
 
 #logo {
     float: left;
     font-size: 100%;
-    margin: 5px 5px 5px 5px;
-    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    padding: 10px;
     
 }
 
 .page-padding {
-    padding: 200px 0 200px 0;
+    padding: 200px 150px 200px 150px;
 }
 
 .text-padding {
@@ -71,12 +70,12 @@ li {
 
 
 li a:hover {
-    color: #95B46A;
+    color: #297373;
 }
 
 /* Cover image*/
 
-#cover {
+#main-image {
     width:  100%;
     text-align: center;
     display: flex;
@@ -92,7 +91,7 @@ li a:hover {
 
 }
 .cover-image {
-    height: 100vh;
+    height: 115vh;
     position: relative;
     background: url('../assets/images/Cover\ image\ 1.jpg') center;
 }
@@ -111,19 +110,65 @@ li a:hover {
 /* did you know and about sections */
 
 #did-you-know {
-    margin: 6rem 0 6rem 0;
+    background-color: #121113;
+    color: #fff;
     text-align: center;
     font-size: 1.5rem;
 }
 
 .about-section {
-    background-color: turquoise;
     text-align: center;
     font-size: 1.5rem;
 
 }
 
+#about {
+    background-color: #297373;
+    color: #fff;
+    
+}
+
+#training {
+    background-color: #121113;
+    color: #fff;
+    
+}
+
+
+table, th, td {
+    color: #FFC857;
+    border: 3px solid;
+    padding: 5px;
+}
+
+table {
+    height: 70%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 80px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(116, 114, 114, 0.3);
+}
+
+
+
+#sign-up {
+    background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center center;
+    color: #fff;
+
+}
+
 /* footer */
+
+footer {
+    background-color: #121113;
+    color: #297373;
+}
  
 footer ul {
     display: inline-block;
