@@ -14,7 +14,7 @@ body {
     font-family: Karla, sans-serif
     }
 
- /* Headings and logo*/
+ /* Headings and home*/
 
 h1, h2 {
     font-family: Rubik, sans-serif;
@@ -23,7 +23,7 @@ h1, h2 {
 
 }
 
-#logo {
+#home {
     float: left;
     font-size: 100%;
     margin: 5px;
@@ -41,21 +41,32 @@ h1, h2 {
 
 /* Navigation links */
 
-nav {
+.nav-bar {
     font-family: rubik, sans-serif;
-    color: #fff;
+    color: #297373;
     background-color: #000000;
+    padding: 10px;
+    font-size: 150%;
 }
 
 
+.nav-bar a:visited {
+    text-decoration: none;
+    color: #297373;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
-#menu #logo {
+
+#menu #home {
     line-height: 100px;
 
 }
@@ -68,10 +79,6 @@ li {
     padding: 10px;
 }
 
-
-li a:hover {
-    color: #297373;
-}
 
 /* Cover image*/
 
@@ -94,6 +101,7 @@ li a:hover {
     height: 100vh;
     position: relative;
     background: url('../assets/images/Cover\ image\ 1.jpg') center;
+    object-fit: contain;
 }
 
 /* cover image text */
@@ -159,10 +167,16 @@ tr:nth-child(even) {
 
 
 #sign-up {
-    background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center center;
+    background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center;
     color: #DC851F;
     text-decoration: none;
+    font-size: 1.5rem;
+    object-fit: contain;
     
+}
+
+#sign-up div {
+    text-align: center;
 }
 
 
@@ -191,6 +205,7 @@ input {
 footer {
     background-color: #121113;
     color: #297373;
+    text-align: center;
 }
  
 footer ul {
@@ -198,7 +213,6 @@ footer ul {
 }
 
 .social-networks {
-    text-align: center;
     color: #297373;
     font-size: 150%;
     padding: 5px;
