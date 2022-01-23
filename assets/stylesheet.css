@@ -23,6 +23,12 @@ h1, h2 {
 
 }
 
+h2 {
+    border-bottom: 1px solid #fff;
+    border-bottom-width: 1px;
+    
+}
+
 #home {
     float: left;
     font-size: 100%;
@@ -49,6 +55,9 @@ h1, h2 {
     font-size: 150%;
 }
 
+.nav-bar a:link {
+    color: #297373;
+
 
 .nav-bar a:visited {
     text-decoration: none;
@@ -59,6 +68,10 @@ h1, h2 {
 .nav-bar a {
     text-decoration: none;
     cursor: pointer;
+}
+
+.nav-bar a:hover {
+    background-color: #fff;
 }
 
 #menu {
@@ -172,7 +185,8 @@ tr:nth-child(even) {
     text-decoration: none;
     font-size: 1.5rem;
     object-fit: contain;
-    
+    justify-content: center;
+    display: flex;
 }
 
 #sign-up div {
