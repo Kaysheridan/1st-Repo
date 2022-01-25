@@ -111,7 +111,7 @@ li {
 .cover-image {
     height: 115vh;
     position: relative;
-    background: url('../assets/images/Cover\ image\ 1.jpg') center;
+    background: url('../assets/images/Cover\ image\ 1.jpg') no-repeat center;
     object-fit: contain;
 }
 
@@ -228,7 +228,7 @@ footer ul {
     padding: 5px;
 }
 
- .social-networks a:visited {
+ footer a:visited {
     text-decoration: none;
     color: #297373;
 }
