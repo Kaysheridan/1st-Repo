@@ -229,8 +229,9 @@ footer ul {
 
 /* Media Queries*/
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     font-size: 2.5rem;
+    width: 70%;
     
 }
 
