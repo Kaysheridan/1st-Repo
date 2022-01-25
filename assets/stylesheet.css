@@ -246,6 +246,25 @@ footer ul {
     overflow: hidden;
     display: block;
 
+}
+
+    #did-you-know {
+        text-align: left;
+        padding: 20px;
+    }
+    
+    #about {
+        padding: 20px;
+        text-align: left;
+    }
+    
+    #training {
+        padding: 20px;
+        text-align: left;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     * {
         margin: 0; 
