@@ -42,11 +42,11 @@ h2 {
 
 #home a:link {
     color: #297373;
+    text-decoration: none;
 
 }
 
 #home a:visited {
-    text-decoration: none;
     color: #297373;
 
 }
