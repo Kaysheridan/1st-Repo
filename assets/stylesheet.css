@@ -16,6 +16,10 @@ body {
 
  /* Headings and home*/
 
+ header {
+     background-color: #000000;
+ }
+
 h1, h2 {
     font-family: Rubik, sans-serif;
     text-transform: uppercase;
@@ -28,10 +32,12 @@ h2 {
 }
 
 #home {
+    background-color: #000000;
+    color: #297373;
     float: left;
-    font-size: 100%;
-    margin: 5px;
+    font-size: 150%;
     padding: 10px;
+    margin-top: 15px;
 }
 
 .page-padding {
@@ -222,17 +228,41 @@ footer ul {
     padding: 5px;
 }
 
- a:visited {
+ .social-networks a:visited {
     text-decoration: none;
     color: #297373;
 }
 
-/* Media Queries*/
+/* Media Queries */
 
-@media screen and (max-width: 576px) {
-    font-size: 2.5rem;
-    width: 70%;
-    
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0; 
+        padding: 0;
+        border: 0;
+}
+
+.nav-bar {
+    overflow: hidden;
+    display: block;
+}
+
+#did-you-know {
+    text-align: left;
+    padding: 20px;
+}
+
+#about {
+    padding: 20px;
+    text-align: left;
+}
+
+#training {
+    padding: 20px;
+    text-align: left;
+}
+
+
 }
 
 
