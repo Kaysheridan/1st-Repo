@@ -235,6 +235,17 @@ footer ul {
 
 /* Media Queries */
 
+@media screen and (max-width: 379px) {
+    * {
+        margin: 0; 
+        padding: 0;
+        border: 0;
+}
+
+.nav-bar {
+    overflow: hidden;
+    display: block;
+
 @media screen and (max-width: 600px) {
     * {
         margin: 0; 
