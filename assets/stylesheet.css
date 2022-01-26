@@ -122,9 +122,8 @@ li {
 .cover-image {
     height: 120vh;
     position: relative;
-    background: url('../assets/images/test\ image.jpg') no-repeat center;
+    background: url('../assets/images/Cover\ image\ .jpg') no-repeat center;
     object-fit: contain;
-    max-width: auto;
 }
 
 /* cover image text */
@@ -251,15 +250,6 @@ footer ul {
 
 /* Media Queries */
 
-@media screen and (max-width: 2560px) {
-    * {
-        margin: 0; 
-        padding: 0;
-        border: 0;
-}
-
-
-
 @media screen and (max-width: 1400px) {
     * {
         margin: 0; 
@@ -292,7 +282,7 @@ footer ul {
     color: #297373;
     float: left;
     margin: 0;
-    padding-right: 4.438rem;
+    padding-right: 6.89rem;
     font-size: 1.25rem;
 }
 
@@ -343,6 +333,7 @@ footer ul {
     padding: 1.25rem;
     text-align: left;
   }
+
 }
 
 @media screen and (max-width: 379px) {
@@ -352,7 +343,7 @@ footer ul {
         border: 0;
 }
 
-.nav-bar {
+    .nav-bar {
     overflow: hidden;
     display: block;
 
@@ -372,6 +363,6 @@ footer ul {
         padding: 1.25rem;
         text-align: left;
     }
-} 
+}
 
 
