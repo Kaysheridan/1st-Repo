@@ -36,8 +36,8 @@ h2 {
     color: #297373;
     float: left;
     font-size: 150%;
-    padding: 10px;
-    margin-top: 15px;
+    padding: 0.625rem;
+    margin-top: 0.938rem;
 }
 
 #home a:link {
@@ -52,11 +52,11 @@ h2 {
 }
 
 .page-padding {
-    padding: 200px 150px 200px 150px;
+    padding: 12.5rem 0.938rem 12.5rem 0.938rem;
 }
 
 .text-padding {
-    padding: 0 200px 0 200px;
+    padding: 0 12.5rem 0 12.5rem;
 }
 
 /* Navigation links */
@@ -65,7 +65,7 @@ h2 {
     font-family: rubik, sans-serif;
     color: #297373;
     background-color: #000000;
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 150%;
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 
 #menu #home {
-    line-height: 100px;
+    line-height: 6.25rem;
 }
 
 li {
@@ -102,7 +102,7 @@ li {
     display: block;
     list-style-type: none;
     margin: 5px;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 /* Cover image*/
@@ -120,10 +120,11 @@ li {
     opacity: 0.9;
 }
 .cover-image {
-    height: 115vh;
+    height: 120vh;
     position: relative;
-    background: url('../assets/images/Cover\ image\ 1.jpg') no-repeat center;
+    background: url('../assets/images/test\ image.jpg') no-repeat center;
     object-fit: contain;
+    max-width: auto;
 }
 
 /* cover image text */
@@ -177,7 +178,7 @@ table {
 }
 
 th {
-    height: 80px;
+    height: 5rem;
 }
 
 tr:nth-child(even) {
@@ -187,7 +188,7 @@ tr:nth-child(even) {
 /* Sign-up Section */
 
 #sign-up {
-    background: url('../assets/images/sign\ up\ page\ image.jpg') no-repeat center;
+    background: url('../assets/images/sign\ up\ image-\ resized.jpg') no-repeat center;
     color: #DC851F;
     text-decoration: none;
     font-size: 1.5rem;
@@ -201,12 +202,12 @@ tr:nth-child(even) {
 }
 
 input {
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     display: block;
-    margin: 8px 0;
+    margin: 0.5rem 0;
     box-sizing: border-box;
     border: 3px solid #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     background: #DC851F;
     font-weight: bold;
 }
@@ -214,10 +215,10 @@ input {
 .submit {
     border: 3px solid #fff;
     color: #DC851F;
-    padding: 10px 15px;
+    padding: 0.625rem 0.938rem;
     background: #fff;
     cursor: pointer;
-    width: 256px;
+    width: 16rem;
 }
 
 
@@ -239,12 +240,39 @@ footer ul {
     padding: 5px;
 }
 
- footer a:visited {
+ .social-networks a:visited {
     text-decoration: none;
     color: #297373;
 }
 
+.social-networks a:hover {
+    background-color: #fff;
+}
+
 /* Media Queries */
+
+@media screen and (max-width: 2560px) {
+    * {
+        margin: 0; 
+        padding: 0;
+        border: 0;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    * {
+        margin: 0; 
+        padding: 0;
+        border: 0;
+}
+
+.cover-image {
+    height: 90vh;
+}
+}
+
+
 
 @media screen and (max-width: 736px) {
     * {
@@ -264,21 +292,22 @@ footer ul {
     color: #297373;
     float: left;
     margin: 0;
-    padding-right: 64px;
+    padding-right: 4.438rem;
+    font-size: 1.25rem;
 }
 
 #did-you-know {
     text-align: left;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 #about {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
 }
 
 #training {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
 }
 
@@ -296,22 +325,24 @@ footer ul {
     display: block;
 }
 
+.cover-image {
+    height: 150vh;
+}
+
 #did-you-know {
     text-align: left;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 #about {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
 }
 
 #training {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: left;
-}
-
-
+  }
 }
 
 @media screen and (max-width: 379px) {
@@ -329,19 +360,18 @@ footer ul {
 
     #did-you-know {
         text-align: left;
-        padding: 20px;
+        padding: 1.25rem;
     }
     
     #about {
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
     
     #training {
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
-
-}
+} 
 
 
