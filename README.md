@@ -4,7 +4,7 @@
 - My motivation for this project is to try protray my first website as a business model. My hope for this site is to provide Marathon training for anyone interested in training for one while keeping the website simple and sleek with enough information to motivate people to want to commit to the training program with out the information being overwhelming. 
 - This is my first HTML/CSS project so they are the only two technologies used throughout the project. 
 - I found the media queries for this quite challenging and getting used to correctly targeting elements. 
-- This site is very basic and only has two interactive elements which are the Navbar and the Footer.
+- This site is very basic and only has three interactive elements which are the Navbar, the sign-up page and the footer.
 - I hope to make the training section interactive in the future and add features which allow people who have signed up to the training to input their stats from any runs they have completed so they can have it to look back on their progress throughout the training. 
 
 ### User Experience ###
@@ -24,6 +24,7 @@ work well together as a pair and have a sleek and modren look. I have used Sans-
  - This is the image I would like to use as the background image for the training week 1 section: https://unsplash.com/photos/0xpFNUjzdbw (image of a race track)
 
 ### WireFrame ###
+- This is the wireframe for how I wanted the finished product to look:
 https://balsamiq.cloud/sqb14tm/p9u4f2p
 
 
@@ -31,7 +32,9 @@ https://balsamiq.cloud/sqb14tm/p9u4f2p
 - This website has been tested and is responsive on 
 - iphone 5s/e, iphone 6/7/8, iphone 8 plus, iphone x, ipad, ipad pro, a small laptop screen 1280x802, 24 inch screen 1920x
 1080 and a 1440p screen 2560x1440
-- Interactive Nav and footer elements.
+- Interactive Navbar to take the user to different sections on the pages.
+- Interactive Footer to take the user to social media sites.
+- Interactive Sign-up page to allow the user to enter their details if they wish to sign up. 
 
 ### Technologies Used ###
 - HTML5
@@ -46,16 +49,14 @@ https://balsamiq.cloud/sqb14tm/p9u4f2p
 - [Upsplash](https://unsplash.com/s/photos/running-track) : I used upsplash for uncopyrighted images to use throughout the project.
 - [w3school](https://www.w3schools.com/) : Used w3school for research on features I implimented throughout the website and for troubleshooting.
 - [Slack](https://slack.com/intl/en-ie/) : Used for trouble shooting 
--
-
-- more to be updated as the project progresses 
+- Love Running run through project- I referred back to the run through project a lot I found this more helpful than trying to find specific videos in the HTML and CSS modules. 
 
 ### Testing ###
 
 - The W3C Markup Validator and W3C CSS Validator Services are going to be  used to validate every page of the project to ensure there are no syntax errors in the project.
 
- - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) -results will be added when available
- - [Markup Validator](https://validator.w3.org/)
+ - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - https://jigsaw.w3.org/css-validator/validator
+ - [Markup Validator](https://validator.w3.org/) - https://validator.w3.org/nu/#textarea 
 
 
 ### Further Testing ###
