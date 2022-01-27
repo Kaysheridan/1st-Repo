@@ -245,7 +245,7 @@ footer ul {
     padding: 5px;
 }
 
- .social-networks a:visited {
+ .social-networks li a:visited {
     text-decoration: none;
     color: #297373;
 }
