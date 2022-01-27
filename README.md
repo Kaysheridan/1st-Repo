@@ -55,7 +55,8 @@ https://balsamiq.cloud/sqb14tm/p9u4f2p
 
 - The W3C Markup Validator and W3C CSS Validator Services are going to be  used to validate every page of the project to ensure there are no syntax errors in the project.
 
- - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - https://jigsaw.w3.org/css-validator/validator
+ - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/images/vcss)
+            
  - [Markup Validator](https://validator.w3.org/) - https://validator.w3.org/nu/#textarea 
 
 

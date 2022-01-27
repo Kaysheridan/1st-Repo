@@ -36,7 +36,7 @@ h2 {
     background-color: #000000;
     color: #297373;
     float: left;
-    font-size: 180%;
+    font-size: 150%;
     padding: 0.625rem;
     margin-top: 0.938rem;
 }
@@ -275,9 +275,14 @@ footer ul {
         border: 0;
 }
 
+#home {
+    font-size: 100%;
+}
+
 .nav-bar {
     overflow: hidden;
     display: block;
+    text-align: left;
 }
 
 .cover-image {
