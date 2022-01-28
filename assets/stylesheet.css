@@ -25,10 +25,20 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.long-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
-h2 {
-    border-bottom: 1px solid #fff;
-    border-bottom-width: 1px;
+.long-line-blue {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(41 115 115), rgba(0, 0, 0, 0));
+}
+
+#week-1 {
+    padding-bottom: 1rem;
 }
 
 #home {
@@ -189,7 +199,7 @@ tr:nth-child(even) {
 
 #sign-up {
     background: url('../assets/images/sign\ up\ image-\ resized.jpg') no-repeat center;
-    color: #297373;
+    color: #DC851F;
     text-decoration: none;
     font-size: 1.5rem;
     object-fit: contain;
@@ -201,11 +211,16 @@ tr:nth-child(even) {
     display: block;
 }
 
+#sign-up-header {
+    color: #297373;
+}
+
 input {
     padding: 0.625rem 0.625rem;
     display: block;
     margin: 0.5rem 0;
     box-sizing: border-box;
+    color: black;
     border: 3px solid #CFDBD5;
     font-size: 1.25rem;
     background: #DC851F;
@@ -215,11 +230,14 @@ input {
 form label {
     border: 3px solid #DC851F;
     background-color: #CFDBD5;
+    color: #121113;
+    display: block;
+    width: 15.7rem;
 }
 
 .submit {
     border: 3px solid #DC851F;
-    color: #297373;
+    color: #121113;
     padding: 0.625rem 0.938rem;
     background: #CFDBD5;
     cursor: pointer;
@@ -240,10 +258,16 @@ footer ul {
 }
 
 .social-networks {
-    color: #297373;
+    color: #297373!important;
     font-size: 150%;
     padding: 5px;
 }
+
+.social-networks li a:link {
+    text-decoration: none;
+    color: #297373;
+}
+
 
  .social-networks li a:visited {
     text-decoration: none;
@@ -276,13 +300,15 @@ footer ul {
 }
 
 #home {
-    font-size: 100%;
+    font-size: 110%;
+    padding-left: 100px;
 }
 
 .nav-bar {
     overflow: hidden;
-    display: block;
-    text-align: left;
+    display: inline-flex;
+    padding-left: 2.188rem;
+    font-size: 100%;
 }
 
 .cover-image {
@@ -316,6 +342,9 @@ footer ul {
     .nav-bar {
     overflow: hidden;
     display: block;
+    display: inline-flex;
+    padding-left: 2.188rem;
+    font-size: 100%;
 
 }
 

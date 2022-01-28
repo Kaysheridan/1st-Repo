@@ -42,7 +42,6 @@
             
     </header>
     <section id="main-image" class="cover-image">
-        <!-- <div id="cover-image"></div> -->
         <div id="image-text">
             <h1>Become part of the 1%</h1>
         </div>
@@ -50,14 +49,16 @@
     </section>
 
     <section id="did-you-know" class="page-padding">
-        <h2>Did you know?</h2><br>
+        <h2>Did you know?</h2>
+        <hr class="long-line-blue">
         <h3>Only 1% of the population has sucessfully completed a marathon!</h3>
     </section>
 
 
     <section class="about-section page-padding" id="about">
         <div>
-            <h2>About</h2><br>
+            <h2>About</h2>
+            <hr class="long-line">
             <p>Running a Marathon can seem like an impossible task and you might not know where to start, thats why we are here to help! We have put together
                 a 16 week comprehensive training plan to get you to your 42.2km goal. During the 16 weeks you will build your stamina and distance at a pace that suits you,
                 the plan will cover active and rest days with intensity and distance goals for each planned run. The plan is designed to be a 16 week minimum training guide, if you find any of the weeks
@@ -67,7 +68,7 @@
         </div>
     </section>
     <section id="training" class="about-section page-padding">
-        <h2>Training Week 1</h2><br>
+        <h2 id="week-1">Training Week 1</h2>
         <table>
             <tr>
             <th>Week 1</th>
@@ -113,14 +114,15 @@
 
         <p>If you believe you are ready to take on this challenge and push yourself to become part of the 1% give the first weeks training a go!
 
-        </p><br>
+        </p> <br>
         <p>Please use the sign up sheet below if you want to receive our full 16 week comprehansive training plan!
         </p>
       
     </section>
     <section id="sign-up" class="page-padding">
         <div>
-        <h2>Sign Up Today!</h2><br>
+        <h2 id="sign-up-header">Sign Up Today!</h2>
+        <hr class="long-line">
         <form>
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="fname" placeholder="Your First Name.." required>
@@ -134,7 +136,9 @@
     </section>
 
     <footer>
-        <ul class="social-networks">  
+        <ul class="social-networks"> 
+            <!--I wanted my social media links to look like the ones used in the run through project, I have used the same code below but removed the youtube link
+            and added different styles in css as well as a hover feature. I am unsure who to credit this code to--> 
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
                 aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
